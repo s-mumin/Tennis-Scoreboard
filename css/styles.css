@@ -1,0 +1,136 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Zen Antique Soft', serif;
+}
+
+hr{
+    width: 80%;
+    margin: 50px auto;
+}
+
+/* title header */
+
+#title{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url('../images/court.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+    margin-bottom: 200px;
+    margin: 0 auto 0 auto;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+a:link{
+    color:black;
+    text-decoration: none;
+}
+
+#heading{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top:50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: thistle;
+}
+
+/* scoreboard */
+
+input[type=text], [type=number] {
+    width: 40%;
+    padding: 5px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+  }
+
+#scoreboard-header{
+    text-align: center;
+    margin-bottom:20px;
+}
+
+#scoreboard-info, #scoreboard{
+    margin-top: 10px;
+}
+
+table{
+    color: green;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    border-left: green 5px solid;
+    height: 150px;
+    width: 350px;
+    margin-bottom: 5px;
+}
+
+th, td{
+    border: 1px solid;
+    height: 20px;
+    width:20px;
+}
+
+#game, #p1game, #p2game{
+    background-color: purple;
+    color: white;
+}
+
+#set, #p1set, #p2set{
+    background-color: green;
+    color: white;
+}
+
+.pname, #point, #p1point, #p2point{
+    background-color: rgb(228, 219, 219);
+    color: purple;
+}
+
+#player1button, #player2button{
+    color: purple;
+    font-weight: bold;
+}
+
+.form, #winner{
+    text-align: center;
+}
+
+
+/* About */
+
+#about{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+img{
+    height:275px;
+    width: 425px;
+    border-radius: 8px;
+}
+/* footer */
+#footer{
+    background-color: rgb(0, 0, 0);
+    color: rgba(255, 255, 255, 0.387);
+    margin-top: 60px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+}
+
+#social ul{
+    list-style: none;
+    display:inline-block;
+}
+
+#copyright{
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+    
+}
